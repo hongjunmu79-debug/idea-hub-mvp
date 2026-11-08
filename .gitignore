@@ -1,0 +1,32 @@
+# ---- 凭据 / 隐私（最高优先级）----
+.env
+.env.*
+!.env.example
+*token*
+*secret*
+*cred*
+*.pem
+*.key
+*.db
+*.sqlite
+*.sqlite3
+# ---- 依赖 / 构建产物 ----
+node_modules/
+.venv/
+venv/
+dist/
+build/
+__pycache__/
+*.py[cod]
+*.exe
+*.dll
+*.bin
+*.mp4
+*.so
+*.pyd
+# ---- 运行时缓存 ----
+cache/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
